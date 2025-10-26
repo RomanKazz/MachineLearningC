@@ -23,7 +23,7 @@ float cost(float w, float b){
         float d = y-train[i][1];
         result += d*d;
     }
-    result /= train_count;
+    result /= (int)train_count;
     return result;
 }
 
